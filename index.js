@@ -52,7 +52,7 @@ var price = function(pizzaSize, pizzaCrust, pizzaTopping) {
     return pizzaTotal;
 }
 $(document).ready(function() {
-    $("#order-online").click(function() {
+    $("#order-now").click(function() {
         $(".view-two").show();
         $(".view-one").hide();
     })
