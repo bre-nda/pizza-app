@@ -120,3 +120,19 @@
     h2 {
         color: white;
     }
+    
+    h1 {
+        color: greenyellow;
+        font-family: sans-serif;
+    }
+    
+    .man {
+        width: 25%;
+        height: 25%;
+        border-style: solid black;
+    }
+    
+    h3 {
+        color: white;
+        font-size: medium;
+    }
