@@ -75,7 +75,7 @@ $(document).ready(function() {
 
         //Pickup button
         $("#pick-up").click(function() {
-            alert("Dear customer, your order will be ready for pickup in 1 hour. Your order total is: " + total);
+            alert("Dear customer, your order will be ready for pickup in 30 minutes. Your order total is: " + total);
 
             //refresh page
             location.reload();
