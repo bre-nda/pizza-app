@@ -68,3 +68,15 @@ $(document).ready(function() {
                         $("input:checkbox[name=toppings]:checked").each(function() {
                             pizzaTopping.push($(this).val());
                         });
+                        var total = price(pizzaSize, pizzaCrust, pizzaTopping);
+                        var grandTotal = total + 300;
+                        var order = new Pizza(pizzaName, pizzaSize, pizzaCrust, pizzaTopping)
+                        $(".current-order").append('<tr><td id="name">' + order.pizza + '</td><td id="size">' + order.size + '</td><td id="crust">' + order.crust + '</td><td id="toppings">' + order.toppings + '</td><td id="total">' + total);
+
+                        //Pickup button
+                        $("#pick-up").click(function() {
+                            alert("Dear customer, your order will be ready for pickup in 1 hour. Your order total is: " + total);
+
+                            //refresh page
+                            location.reload();
+                        })
