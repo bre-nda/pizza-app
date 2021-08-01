@@ -51,3 +51,8 @@ var price = function(pizzaSize, pizzaCrust, pizzaTopping) {
     var pizzaTotal = priceSize + priceCrust + priceTopping;
     return pizzaTotal;
 }
+$(document).ready(function() {
+            $("#order-online").click(function() {
+                $(".view-two").show();
+                $(".view-one").hide();
+            })
