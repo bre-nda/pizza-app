@@ -56,3 +56,15 @@ $(document).ready(function() {
                 $(".view-two").show();
                 $(".view-one").hide();
             })
+            $("#continue").click(function(event) {
+                        event.preventDefault();
+                        $(".view-three").show();
+                        $(".view-two").hide();
+                        //get form values
+                        let pizzaName = $("#pizza option:selected").val();
+                        let pizzaSize = $("#size option:selected").val();
+                        let pizzaCrust = $("#crust option:selected").val();
+                        var pizzaTopping = [];
+                        $("input:checkbox[name=toppings]:checked").each(function() {
+                            pizzaTopping.push($(this).val());
+                        });
