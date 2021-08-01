@@ -4,3 +4,4 @@ function Pizza(pizza, size, crust, toppings) {
     this.crust = crust;
     this.toppings = toppings;
 }
+var priceSize, priceCrust, priceTopping;
