@@ -116,3 +116,11 @@
         padding-top: 3%;
         padding-bottom: 3%;
     }
+    
+    body menu.html {
+        background: rgba(255, 255, 255, 1);
+    }
+    
+    .nav ul li a:hover {
+        color: grey;
+    }
