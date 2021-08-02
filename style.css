@@ -124,6 +124,8 @@
     h1 {
         color: greenyellow;
         font-family: sans-serif;
+        text-shadow: 2px 2px 5px rgb(8, 156, 5);
+        padding-top: 18;
     }
     
     .man {
@@ -138,6 +140,6 @@
     }
     
     .history {
-        color: white;
+        color: black;
         font-size: larger;
     }
