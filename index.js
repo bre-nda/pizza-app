@@ -81,7 +81,7 @@ $(document).ready(function() {
             location.reload();
         })
         $("#checkout").click(function() {
-            //form data
+
             var clientName = $("#full-name").val();
             var clientNumber = $("#phone-number").val();
             var clientLocation = $("#location").val();
@@ -97,14 +97,14 @@ $(document).ready(function() {
     $("#add").click(function(event) {
         event.preventDefault();
 
-        //Add an extra order
+
         $(".view-three").hide();
         $(".view-four").hide();
         $(".view-two").show();
         document.getElementById("form1").reset();
     })
 
-    //Delivery button
+
     $("#delivery").click(function() {
         $(".table-buttons").hide();
         $(".view-four").slideDown();
