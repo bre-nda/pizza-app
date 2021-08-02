@@ -122,10 +122,10 @@
     }
     
     h1 {
-        color: greenyellow;
+        color: orange;
         font-family: sans-serif;
         text-shadow: 2px 2px 5px rgb(8, 156, 5);
-        padding-top: 10%;
+        padding-top: 2%;
     }
     
     .man {
@@ -142,4 +142,8 @@
     .history {
         color: black;
         font-size: larger;
+    }
+    
+    .h2 {
+        text-shadow: 2px 2px 5px rgb(8, 156, 5);
     }
